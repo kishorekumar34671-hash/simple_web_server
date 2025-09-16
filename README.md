@@ -21,7 +21,7 @@ Serving the HTML pages.
 Testing the webserver.
 
 # PROGRAM:
-from django.shortcuts import render
+```from django.shortcuts import render
 from http.server import HTTPserver,BaseHTTPRequestHandler
 content ='''<html>
                 <h1>Hello</h1>
@@ -38,7 +38,7 @@ class Myserver(BaseHTTPRequestHandler):
 print("This is my webserver")
 server_address =('',8000)
 httpd =HTTPserver(server_address,Myserver)
-httpd.serve_forever
+httpd.serve_forever```
         
 # OUTPUT:
 # RESULT:
