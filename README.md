@@ -38,8 +38,11 @@ class Myserver(BaseHTTPRequestHandler):
 print("This is my webserver")
 server_address =('',8000)
 httpd =HTTPserver(server_address,Myserver)
-httpd.serve_forever
+httpd.serve_forever()
         
 # OUTPUT:
+![alt text](<Screenshot 2025-09-18 184340.png>)
+![alt text](<Screenshot 2025-09-18 184441.png>)
+
 # RESULT:
 The program for implementing simple webserver is executed successfully.
